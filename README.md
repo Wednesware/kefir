@@ -2,7 +2,7 @@
 
 # kefir
 
-> distro hosted at `wednesware.org:wednesware.kefir`
+> distro hosted at `wednesware.kefir@wednesware.org`
 
 Kefir is a small Python CLI that bundles a Python application into a distributable single-file executable or package using Nuitka under the hood.
 
