@@ -1,0 +1,7 @@
+{
+  "name": "kefir",
+  "command": "kefir",
+  "description": "Python application bundler. Create portable .kef and .kar files for distribution.",
+  "requires-python": ">=3.12",
+  "dependencies": []
+}

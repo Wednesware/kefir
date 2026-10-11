@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "kefir"
+version = "0.1.0"
+description = "Nuitka-based wrapper CLI for bundling Python projects into single .kef files."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["nuitka>=2.0", "nitrogen>=26.66"]
+[project.scripts]
+kefir = "kefir:main"
+[tool.setuptools]
+packages = ["kefir"]
